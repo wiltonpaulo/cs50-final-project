@@ -1,4 +1,4 @@
-# Invoicing System Project
+# Invoicing System
 
 #### Video Demo: https://www.youtube.com/c/wiltonpaulo
 
@@ -10,13 +10,21 @@ Through a menu on the command line, customer information, type of service, date 
 
 With this project I should acquire knowledge of object orientation, sqllite database with sqlalchemy, creation of tests and also improve my knowledge in python programming.
 
-What to expect about this project: - Good outcome: -
+What to expect about this project:
 
 | Expectation    | Description                                                                                                                                                                                                                       |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | good outcome   | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice                                                                                             |
 | better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
 | best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
+
+#### How-To:
+
+- Install/Setup
+  1. Ensure `python3.10` and `pip` are installed.
+  2. Clone repository: `git clone git@github.com:wiltonpaulo/cs50-final-project`
+  3. `cd` into the repository.
+  4. pip install -r requirements.txt in your shell.
 
 #### To-Do / Done
 
@@ -38,6 +46,6 @@ What to expect about this project: - Good outcome: -
 - [x] Invoice creation
   - [x] Read borb.pdf documentation
   - [x] Create functions header, body and items
-- [x] Create Tests
-- [ ] Create README.md
+- [x] Write Tests
+- [ ] Write README.md
 - [ ] Record and upload the youtube video.
