@@ -5,9 +5,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#description">Description</a>
-    </li>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#what-to-expect">What to expect?</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -45,7 +44,25 @@ With this project, I should acquire knowledge of object orientation, SQLite data
 | better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
 | best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
 
-#### Files Structure
+#### Getting Started
+
+##### Prerequisites
+
+The following items bellow are necessary to have the application working.
+
+- [Python 3.10 or higher](https://www.python.org/){:target="\_blank"}
+- [Pip 22.1.2 or higher](https://pypi.org/project/pip/){:target="\_blank"}
+- [SQLAlchemy](https://www.sqlalchemy.org/){:target="\_blank"}
+- [PrettyTable](https://pypi.org/project/prettytable/)
+- [borb: PDF](https://github.com/jorisschellekens/borb)
+- [configparser](https://pypi.org/project/configparser/)
+- [simple-term-menu](https://pypi.org/project/simple-term-menu/)
+
+##### Instalations
+
+##### First-Run
+
+![alt text for screen readers](docs/initial-config.gi)
 
 ```
   ├── README.md - This file
