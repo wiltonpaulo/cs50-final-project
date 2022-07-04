@@ -19,7 +19,7 @@ With this project, I should acquire knowledge of object orientation, SQLite data
    3. [Customer](#subparagraph1)
    4. [Product](#subparagraph1)
    5. [Invoice](#subparagraph1)
-3. [TO-DO](#to-do-tasks)
+3. [TO-DO](#to-do)
 
 ### What to expect?
 
