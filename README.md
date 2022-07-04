@@ -2,6 +2,33 @@
 
 #### Video Demo: https://www.youtube.com/c/wiltonpaulo
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#description">Description</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#first-run">First Run</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+      <ul>
+        <li><a href="#first-run">Add and Remove Customer</a></li>
+        <li><a href="#first-run">Add and Remove Product</a></li>
+        <li><a href="#first-run">Generate Invoice</a></li>
+      </ul>
+    <li><a href="#todo">TODO</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
 #### Description:
 
 This project was created thinking about solving a repetitive and manual activity that happens to freelancers or companies that need to generate several invoices for services performed for their clients.
@@ -9,17 +36,6 @@ This project was created thinking about solving a repetitive and manual activity
 The customer information, type of service, date, and other data for generating the invoice are created through a menu on the command line.
 
 With this project, I should acquire knowledge of object orientation, SQLite database with sqlalchemy, creation of tests, and also improve my knowledge in python programming.
-
-# Table of contents
-
-1. [What to expect?](#what-to-expect)
-2. [HOW-TO](#paragraph1)
-   1. [Setup](#subparagraph1)
-   2. [First Run - Config](#subparagraph1)
-   3. [Customer](#subparagraph1)
-   4. [Product](#subparagraph1)
-   5. [Invoice](#subparagraph1)
-3. [TO-DO](#to-do)
 
 ### What to expect?
 
@@ -29,7 +45,18 @@ With this project, I should acquire knowledge of object orientation, SQLite data
 | better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
 | best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
 
-### How-To:
+#### Files Structure
+
+```
+  ├── README.md - This file
+  ├── logo.png - CS50 logo image
+  ├── project.py - Main project code
+  ├── models.py - Models code
+  ├── test_project.py - Tests
+  └── requirements.txt - Requirement modules
+```
+
+#### HOW-TO:
 
 - Install/Setup
   1. Ensure `python3.10` and `pip` are installed.
@@ -37,7 +64,7 @@ With this project, I should acquire knowledge of object orientation, SQLite data
   1. `cd` into the repository.
   1. pip install -r requirements.txt in your shell.
 
-### TO-DO
+#### TODO
 
 - [x] Create the project idea and design
 - [x] Menu
@@ -60,3 +87,14 @@ With this project, I should acquire knowledge of object orientation, SQLite data
 - [x] Write Tests
 - [ ] Write README.md
 - [ ] Record and upload the youtube video.
+
+#### References
+
+CS50P Courses URLs:
+[CS50P EDX](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
+[CS50P Harvard](https://cs50.harvard.edu/python/2022/)
+
+Instructions to create this project:
+[Final Project Instructions](https://cs50.harvard.edu/python/2022/project/)
+
+![alt text for screen readers](logo.png)
