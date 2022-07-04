@@ -17,8 +17,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#add-and-remove-customer">Add and Remove Customer</a></li>
-        <li><a href="#add-and-remove-product">Add and Remove Product</a></li>
+        <li><a href="#add-and-delete-customer">Add and Delete Customer</a></li>
+        <li><a href="#add-and-delete-product">Add and Delete Product</a></li>
         <li><a href="#generate-invoice">Generate Invoice</a></li>
       </ul>
     <li><a href="#what-to-expect">What to expect?</a></li>
@@ -107,7 +107,7 @@ config.ini
 name = <YOU COMPANY NAME>
 address = <YOU COMPANY ADDRESS>
 phone = <YOU COMPANY PHONE NUMBER>
-owner = <PATH TO THE COMPANY LOGO FILE>
+owner = <PROVIDE THE OWNER NAME>
 logo = <PATH TO THE COMPANY LOGO FILE>
 
 [database]
@@ -116,11 +116,106 @@ db_connection = sqlite:///project.db
 
 #### Usage
 
-##### Add and Remove Customer
+##### Add and Delete Customer
 
-##### Add and Remove Product
+1. Run the program and select the **Customer** option
+
+```
+$ python3 project.py
+ Invoicing System
+
+  Invoice
+> Customer
+  Product
+  Exit
+```
+
+2. The menu is intuitive and you can just select the option you want
+
+```
+ Customer Screen
+
+> List Customers
+  Add new Customer
+  Delete a Customer
+  Return
+```
+
+##### Add and Delete Product
+
+1. Run the program and select the **Product** option
+
+```
+$ python3 project.py
+ Invoicing System
+
+  Invoice
+  Customer
+> Product
+  Exit
+```
+
+2. The menu is intuitive and you can just select the option you want
+
+```
+ Product Screen
+
+> List
+  Add
+  Delete
+  Return
+```
 
 ##### Generate Invoice
+
+_\*Before you start, make sure that you have created at least one Customer and one Product to generate the invoice_
+
+1. Run the program and select the **Generate Invoice** option
+
+```
+$ python3 project.py
+ Invoice Screen
+
+> Generate Invoice
+  List Invoices
+  Return
+```
+
+2. Type the **customer ID** to create your invoice.
+
+Eg.
+
+```
++----+------------------+--------------------------+-------------------+
+| Id |       Name       |         Address          |       Phone       |
++----+------------------+--------------------------+-------------------+
+| 1  | Customer Company | Customer Company Address | +55 11 1234 12345 |
++----+------------------+--------------------------+-------------------+
+Type the customer id to add in your invoice: 1
+```
+
+3. Type the **product ID** to create your invoice.
+
+Eg.
+
+```
++----+-------------------------+-----------------------------+-----------+
+| Id |           Name          |         Description         |   Price   |
++----+-------------------------+-----------------------------+-----------+
+| 1  | Application Development | Development of a python app | $ 1000.00 |
++----+-------------------------+-----------------------------+-----------+
+Type the product id to add in your invoice: 1
+```
+
+4. Type the **Product amount** and the invoice **Due Date**
+   Eg.
+
+```
+Product amount:
+Due Date(DD/M/YY): 20/06/2022
+```
+
+After that, the file **invoice.pdf** will be created.
 
 ### What to expect?
 
