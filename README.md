@@ -81,6 +81,39 @@ invoice.pdf - Created or updated after generate an invoice.
 
 ##### First-Run
 
+The first script execution will checks if the file config.ini exists, otherwise will ask to fill the initial configuration as below:
+
+```shell
+python3 project.py
+***No config.ini found.***
+
+Provide the initial configuration
+
+Company name: <YOU COMPANY NAME>
+Company address: <YOU COMPANY ADDRESS>
+Company phone: <YOU COMPANY PHONE NUMBER>
+Company owner: <PROVIDE THE OWNER NAME>
+Company logo path: <PATH TO THE COMPANY LOGO FILE>
+
+SUCCESS: Configuration finished
+```
+
+You can also write the file directly as below:
+
+```shell
+config.ini
+
+[company]
+name = <YOU COMPANY NAME>
+address = <YOU COMPANY ADDRESS>
+phone = <YOU COMPANY PHONE NUMBER>
+owner = <PATH TO THE COMPANY LOGO FILE>
+logo = <PATH TO THE COMPANY LOGO FILE>
+
+[database]
+db_connection = sqlite:///project.db
+```
+
 #### Usage
 
 ##### Add and Remove Customer
@@ -129,10 +162,8 @@ invoice.pdf - Created or updated after generate an invoice.
 #### References
 
 - [CS50P EDX](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
-
 - [CS50P Harvard](https://cs50.harvard.edu/python/2022/)
 - [CS50 Youtube Channel](https://www.youtube.com/c/cs50)
-
 - [Final Project Instructions](https://cs50.harvard.edu/python/2022/project/)
 
 ![logo cs50](logo.png)
