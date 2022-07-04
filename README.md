@@ -62,18 +62,19 @@ The following items bellow are necessary to have the application working.
 
 **Repository files**
 
-> _README.md_ - _This file_ > _logo.png_ - CS50 logo image
-> _project.py_ - Main project code
-> _models.py_ - Models code
-> _test_project.py_ - Tests
-> _requirements.txt_ - Requirement modules
-> _.gitignore_ - Ignore temp files and the ones created after first-run.
+_README.md_ - _This file_
+_logo.png_ - CS50 logo image
+_project.py_ - Main project code
+_models.py_ - Models code
+_test_project.py_ - Tests
+_requirements.txt_ - Requirement modules
+_.gitignore_ - Ignore temp files and the ones created after first-run.
 
 **Files created after program execution**
 
-> _config.ini_ - This file is needed to create Company data and db file.
-> _project.db_ - Created after first run and finish the initial configuration.
-> _invoice.pdf_ - Created or updated after generate an invoice.
+_config.ini_ - This file is needed to create Company data and db file.
+_project.db_ - Created after first run and finish the initial configuration.
+_invoice.pdf_ - Created or updated after generate an invoice.
 
 #### Installation
 
