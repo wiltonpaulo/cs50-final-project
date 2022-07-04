@@ -6,9 +6,9 @@
 
 This project was created thinking about solving a repetitive and manual activity that happens to freelancers or companies that need to generate several invoices for services performed for their clients.
 
-Through a menu on the command line, customer information, type of service, date and other data for generating the invoice are created.
+The customer information, type of service, date, and other data for generating the invoice are created through a menu on the command line.
 
-With this project I should acquire knowledge of object orientation, sqllite database with sqlalchemy, creation of tests and also improve my knowledge in python programming.
+With this project, I should acquire knowledge of object orientation, SQLite database with sqlalchemy, creation of tests, and also improve my knowledge in python programming.
 
 # Table of contents
 
@@ -21,7 +21,7 @@ With this project I should acquire knowledge of object orientation, sqllite data
    5. [Invoice](#subparagraph1)
 3. [TO-DO](#to-do-tasks)
 
-#### What to expect?
+### What to expect?
 
 | Expectation    | Description                                                                                                                                                                                                                       |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ With this project I should acquire knowledge of object orientation, sqllite data
 | better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
 | best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
 
-#### How-To:
+### How-To:
 
 - Install/Setup
   1. Ensure `python3.10` and `pip` are installed.
@@ -37,7 +37,7 @@ With this project I should acquire knowledge of object orientation, sqllite data
   1. `cd` into the repository.
   1. pip install -r requirements.txt in your shell.
 
-#### TO-DO Tasks
+### TO-DO
 
 - [x] Create the project idea and design
 - [x] Menu
