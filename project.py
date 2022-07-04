@@ -139,7 +139,7 @@ def menu():
                 invoice_id = add_invoice(
                     db, customer.name, product.name, product.price, product.description, amount, issue_date, due_date)
                 if invoice_id:
-                    generate_invoice(
+                    print(generate_invoice(
                         invoice_id,
                         issue_date,
                         due_date,
@@ -149,7 +149,7 @@ def menu():
                         product.description,
                         product.price,
                         amount
-                    )
+                    ))
                 menu_invoice()
             case "List Invoices":
                 print(list_invoice(db))
