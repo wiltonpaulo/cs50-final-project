@@ -11,19 +11,19 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#file-structure">File Structure</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#first-run">First Run</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
       <ul>
-        <li><a href="#first-run">Add and Remove Customer</a></li>
-        <li><a href="#first-run">Add and Remove Product</a></li>
-        <li><a href="#first-run">Generate Invoice</a></li>
+        <li><a href="#add-and-remove-customer">Add and Remove Customer</a></li>
+        <li><a href="#add-and-remove-product">Add and Remove Product</a></li>
+        <li><a href="#generate-invoice">Generate Invoice</a></li>
       </ul>
     <li><a href="#todo">TODO</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#references">References</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -50,36 +50,47 @@ With this project, I should acquire knowledge of object orientation, SQLite data
 
 The following items bellow are necessary to have the application working.
 
-- [Python 3.10 or higher](https://www.python.org/){:target="\_blank"}
-- [Pip 22.1.2 or higher](https://pypi.org/project/pip/){:target="\_blank"}
-- [SQLAlchemy](https://www.sqlalchemy.org/){:target="\_blank"}
+- [Python 3.10 or higher](https://www.python.org/)
+- [Pip 22.1.2 or higher](https://pypi.org/project/pip/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
 - [PrettyTable](https://pypi.org/project/prettytable/)
 - [borb: PDF](https://github.com/jorisschellekens/borb)
 - [configparser](https://pypi.org/project/configparser/)
 - [simple-term-menu](https://pypi.org/project/simple-term-menu/)
 
-##### Instalations
+##### File structure
+
+**Repository files**
+
+> _README.md_ - _This file_ > _logo.png_ - CS50 logo image
+> _project.py_ - Main project code
+> _models.py_ - Models code
+> _test_project.py_ - Tests
+> _requirements.txt_ - Requirement modules
+> _.gitignore_ - Ignore temp files and the ones created after first-run.
+
+**Files created after program execution**
+
+> _config.ini_ - This file is needed to create Company data and db file.
+> _project.db_ - Created after first run and finish the initial configuration.
+> _invoice.pdf_ - Created or updated after generate an invoice.
+
+#### Installation
+
+1. Ensure `python3.10` and `pip` are installed.
+1. Clone repository: `git clone git@github.com:wiltonpaulo/cs50-final-project`
+1. `cd` into the repository.
+1. pip install -r requirements.txt in your shell.
 
 ##### First-Run
 
-![alt text for screen readers](docs/initial-config.gi)
+#### Usage
 
-```
-  ├── README.md - This file
-  ├── logo.png - CS50 logo image
-  ├── project.py - Main project code
-  ├── models.py - Models code
-  ├── test_project.py - Tests
-  └── requirements.txt - Requirement modules
-```
+##### Add and Remove Customer
 
-#### HOW-TO:
+##### Add and Remove Product
 
-- Install/Setup
-  1. Ensure `python3.10` and `pip` are installed.
-  1. Clone repository: `git clone git@github.com:wiltonpaulo/cs50-final-project`
-  1. `cd` into the repository.
-  1. pip install -r requirements.txt in your shell.
+##### Generate Invoice
 
 #### TODO
 
@@ -105,10 +116,12 @@ The following items bellow are necessary to have the application working.
 - [ ] Write README.md
 - [ ] Record and upload the youtube video.
 
-#### References
+#### Acknowledgments
 
 CS50P Courses URLs:
+
 [CS50P EDX](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
+
 [CS50P Harvard](https://cs50.harvard.edu/python/2022/)
 
 Instructions to create this project:
