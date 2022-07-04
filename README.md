@@ -40,7 +40,7 @@ With this project, I should acquire knowledge of object orientation, SQLite data
 
 ##### Prerequisites
 
-The following items bellow are necessary to have the application working.
+The following items below are necessary to have the application working.
 
 - [Python 3.10 or higher](https://www.python.org/)
 - [Pip 22.1.2 or higher](https://pypi.org/project/pip/)
