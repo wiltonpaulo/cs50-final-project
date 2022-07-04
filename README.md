@@ -6,7 +6,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#description">Description</a></li>
-    <li><a href="#what-to-expect">What to expect?</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -22,7 +21,8 @@
         <li><a href="#add-and-remove-product">Add and Remove Product</a></li>
         <li><a href="#generate-invoice">Generate Invoice</a></li>
       </ul>
-    <li><a href="#todo">TODO</a></li>
+    <li><a href="#what-to-expect">What to expect?</a></li>
+    <li><a href="#milestone">Milestone</a></li>
     <li><a href="#references">References</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -35,14 +35,6 @@ This project was created thinking about solving a repetitive and manual activity
 The customer information, type of service, date, and other data for generating the invoice are created through a menu on the command line.
 
 With this project, I should acquire knowledge of object orientation, SQLite database with sqlalchemy, creation of tests, and also improve my knowledge in python programming.
-
-### What to expect?
-
-| Expectation    | Description                                                                                                                                                                                                                       |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| good outcome   | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice                                                                                             |
-| better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
-| best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
 
 #### Getting Started
 
@@ -58,7 +50,7 @@ The following items bellow are necessary to have the application working.
 - [configparser](https://pypi.org/project/configparser/)
 - [simple-term-menu](https://pypi.org/project/simple-term-menu/)
 
-##### File structure
+#### File structure
 
 **Repository files**
 
@@ -97,7 +89,15 @@ invoice.pdf - Created or updated after generate an invoice.
 
 ##### Generate Invoice
 
-#### TODO
+### What to expect?
+
+| Expectation    | Description                                                                                                                                                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| good outcome   | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice                                                                                             |
+| better outcome | As a freelancer or company that provides a service.<br> I want to run the program, type needed information and generate a pdf invoice with data persistence                                                                       |
+| best outcome   | As a freelancer or company that provides a service.<br> I want to run the program type needed information and generate a pdf invoice with:<br> with data persistence, list invoice history, add or delete Customers and Products. |
+
+#### Milestone
 
 - [x] Create the project idea and design
 - [x] Menu
