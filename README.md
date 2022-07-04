@@ -10,7 +10,18 @@ Through a menu on the command line, customer information, type of service, date 
 
 With this project I should acquire knowledge of object orientation, sqllite database with sqlalchemy, creation of tests and also improve my knowledge in python programming.
 
-What to expect about this project:
+# Table of contents
+
+1. [What to expect?](#what-to-expect)
+2. [HOW-TO](#paragraph1)
+   1. [Setup](#subparagraph1)
+   2. [First Run - Config](#subparagraph1)
+   3. [Customer](#subparagraph1)
+   4. [Product](#subparagraph1)
+   5. [Invoice](#subparagraph1)
+3. [TO-DO](#to-do-tasks)
+
+#### What to expect?
 
 | Expectation    | Description                                                                                                                                                                                                                       |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,11 +33,11 @@ What to expect about this project:
 
 - Install/Setup
   1. Ensure `python3.10` and `pip` are installed.
-  2. Clone repository: `git clone git@github.com:wiltonpaulo/cs50-final-project`
-  3. `cd` into the repository.
-  4. pip install -r requirements.txt in your shell.
+  1. Clone repository: `git clone git@github.com:wiltonpaulo/cs50-final-project`
+  1. `cd` into the repository.
+  1. pip install -r requirements.txt in your shell.
 
-#### To-Do / Done
+#### TO-DO Tasks
 
 - [x] Create the project idea and design
 - [x] Menu
