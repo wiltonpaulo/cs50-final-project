@@ -28,7 +28,7 @@
   </ol>
 </details>
 
-#### Description:
+#### Description
 
 This project was created thinking about solving a repetitive and manual activity that happens to freelancers or companies that need to generate several invoices for services performed for their clients.
 
@@ -123,13 +123,16 @@ invoice.pdf - Created or updated after generate an invoice.
 
 #### Acknowledgments
 
-CS50P Courses URLs:
+- I really thank the CS50 Team for providing the content and the ways to learn this course.
+- Thank you professor [David C. Malan](https://github.com/dmalan) for all the lectures. It was amazing!!!
 
-[CS50P EDX](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
+#### References
 
-[CS50P Harvard](https://cs50.harvard.edu/python/2022/)
+- [CS50P EDX](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
 
-Instructions to create this project:
-[Final Project Instructions](https://cs50.harvard.edu/python/2022/project/)
+- [CS50P Harvard](https://cs50.harvard.edu/python/2022/)
+- [CS50 Youtube Channel](https://www.youtube.com/c/cs50)
 
-![alt text for screen readers](logo.png)
+- [Final Project Instructions](https://cs50.harvard.edu/python/2022/project/)
+
+![logo cs50](logo.png)
