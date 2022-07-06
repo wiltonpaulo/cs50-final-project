@@ -134,7 +134,7 @@ def menu():
                 now = datetime.now()
                 issue_date = "%d/%d/%d" % (now.day, now.month, now.year)
                 amount = int(input("Product amount: "))
-                due_date = input("Due Date(DD/M/YY): ")
+                due_date = input("Due Date(DD/MM/YY): ")
 
                 invoice_id = add_invoice(
                     db, customer.name, product.name, product.price, product.description, amount, issue_date, due_date)
