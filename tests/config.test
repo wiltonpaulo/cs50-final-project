@@ -1,0 +1,10 @@
+[company]
+name = my comp
+address = fdgfs
+phone = gsgsgsg
+owner = 345246264
+logo = logo.png
+
+[database]
+db_connection = sqlite:///project.db
+
