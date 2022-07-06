@@ -246,8 +246,8 @@ After that, the file **invoice.pdf** will be created.
   - [x] Read borb.pdf documentation
   - [x] Create functions header, body and items
 - [x] Write Tests
-- [ ] Write README.md
-- [ ] Record and upload the youtube video.
+- [x] Write README.md
+- [x] Record and upload the youtube video.
 
 #### Acknowledgments
 
